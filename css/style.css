@@ -52,7 +52,7 @@ nav ul{
 nav ul li{
     display: inline-block;
 }
-a{
+nav ul li a{
     text-decoration: none;
     color: white;
     padding-left: 30px;
@@ -131,4 +131,41 @@ h3{
 h4{
     padding-bottom: 20px;
 }
-
+/* footer */
+footer{
+    background-color: black;    
+}
+.container2{
+    width: 90%;
+    padding: 5% 15%;
+}
+h5{
+    font-size: 20px;
+    color: #8ea1e1;
+}
+.container2 h5,ul {
+    float:left;
+}
+.container2 ul li{
+    display: inline-block;
+}
+.container2 a{
+    text-decoration: none;
+    color: #8ea1e1;
+    padding-left:70px;
+    font-size:15px;
+}
+.container2 img{
+    padding-top: 20px;
+    width:5%;
+}
+.ita{
+    color: white;
+}
+.brand{
+    padding-top: 20px;
+}
+.fa-brands{
+    color: white;
+    padding-left: 10px;
+}
