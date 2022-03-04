@@ -28,6 +28,12 @@ body{
     color: #fff;
     text-decoration: none;
 }
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
 
 /* header */
 header{
@@ -133,39 +139,61 @@ h4{
 }
 /* footer */
 footer{
-    background-color: black;    
+    color: #7289DA;
+    background-color: #23272a;
 }
-.container2{
-    width: 90%;
-    padding: 5% 15%;
+#footer-up{
+    padding: 50px 0;
 }
-h5{
-    font-size: 20px;
-    color: #8ea1e1;
+#footer-up .main-col{
+    width: 30%;
 }
-.container2 h5,ul {
-    float:left;
+#footer-up .main-col h4{
+    font-size:20px;
+    margin-bottom: 20px;
 }
-.container2 ul li{
-    display: inline-block;
+#footer-up img{
+    width: 20px;
 }
-.container2 a{
+#footer-up select{
+    background-color: #23272a;
+    border: 0;
+    color: white;
+}
+#footer-up .social{
+    margin-top: 20px;
+}
+.social a{
     text-decoration: none;
-    color: #8ea1e1;
-    padding-left:70px;
-    font-size:15px;
-}
-.container2 img{
-    padding-top: 20px;
-    width:5%;
-}
-.ita{
     color: white;
+    margin-right: 8px;
 }
-.brand{
-    padding-top: 20px;
+.menu-col{
+    width: calc(70% / 4);
 }
-.fa-brands{
+.menu-col h5{
+    font-size: 25px;
+    padding:10px 35px;
+
+}
+.menu-col li{
+    margin-top: 10px;
+    list-style: none;
+}
+.menu-col li a{
+    text-decoration: none;
     color: white;
-    padding-left: 10px;
+    font-size: 15px;
+}
+#footer-down{
+    padding: 40px 0;
+    border-top: 1px solid #7289da;
+}
+.footer-down a{
+    vertical-align: middle;
+}
+#registrati .btn{
+    padding: 10px 14px;
+    font-size: 14px;
+    display: inline;
 }
